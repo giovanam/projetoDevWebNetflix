@@ -1,0 +1,28 @@
+{
+  "series": [
+    {
+      "id": 1,
+      "nome": "13 Reasons Why",
+      "temporadas": "4 temporadas",
+      "descricao": "13 Reasons Why é uma série de televisão americana baseada no livro Thirteen Reasons Why, de Jay Asher, e adaptado por Brian Yorkey para a Netflix."
+    },
+    {
+      "nome": "Lupin ",
+      "temporadas": "2 temporadas",
+      "descricao": "Inspirado pelas aventuras de Arsène Lupin, o ladrão gentil Assane Diop quer se vingar de uma família rica por uma injustiça cometida contra o pai dele.",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "nome": "La casa de papel",
+      "temporadas": "5 temporadas",
+      "descricao": "Um grupo de nove ladrões, liderados por um Professor, prepara o roubo do século na Casa da Moeda da Espanha, com o objetivo de fabricar o próprio dinheiro em quantidades incalculáveis e nunca antes vista."
+    },
+    {
+      "nome": " O Gambito da Rainha",
+      "temporadas": " 1 temporada",
+      "descricao": " Uma órfã prodígio do xadrez luta contra vícios enquanto enfrenta os maiores enxadristas do mundo.",
+      "id": 5
+    }
+  ]
+}
