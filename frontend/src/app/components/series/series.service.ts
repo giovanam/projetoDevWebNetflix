@@ -5,7 +5,7 @@ import { Series } from './series.model';
 import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root",
 })
 export class SeriesService {
   baseUrl = "http://localhost:3001/series";
