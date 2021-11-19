@@ -10,10 +10,10 @@
       "nome": "Lupin ",
       "temporadas": "2 temporadas",
       "descricao": "Inspirado pelas aventuras de Arsène Lupin, o ladrão gentil Assane Diop quer se vingar de uma família rica por uma injustiça cometida contra o pai dele.",
-      "id": 3
+      "id": 2
     },
     {
-      "id": 4,
+      "id": 3,
       "nome": "La casa de papel",
       "temporadas": "5 temporadas",
       "descricao": "Um grupo de nove ladrões, liderados por um Professor, prepara o roubo do século na Casa da Moeda da Espanha, com o objetivo de fabricar o próprio dinheiro em quantidades incalculáveis e nunca antes vista."
@@ -22,6 +22,12 @@
       "nome": " O Gambito da Rainha",
       "temporadas": " 1 temporada",
       "descricao": " Uma órfã prodígio do xadrez luta contra vícios enquanto enfrenta os maiores enxadristas do mundo.",
+      "id": 4
+    },
+    {
+      "nome": "Supergirl",
+      "temporadas": "6 temporadas",
+      "descricao": "Kara Zor-El escapou de seu planeta quando tinha 12 anos de idade. Desde que chegou à Terra, ela conseguiu esconder seus poderes, os quais compartilha com seu primo, o Super-Homem. Mas agora, ela ajuda a proteger os cidadãos de National City.",
       "id": 5
     }
   ]
