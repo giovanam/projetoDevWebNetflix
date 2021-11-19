@@ -17,11 +17,13 @@ export class SeriesCreateComponent implements OnInit {
 
   constructor(private seriesService: SeriesService, private router: Router) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   createSeries(): void {
-    this.seriesService.showMessage("Série cadastrada!");
+    this.seriesService.create(this.series).subscribe(() => {
+      this.seriesService.showMessage("Série cadastrada!");
+      this.router.navigate(["/series"]);
+    });
   }
 
   cancel(): void {
