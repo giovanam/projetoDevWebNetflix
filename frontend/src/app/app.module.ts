@@ -25,6 +25,12 @@ import { HttpClientModule } from "@angular/common/http";
 import { FormsModule } from "@angular/forms";
 import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatInputModule } from "@angular/material/input";
+import { SeriesReadComponent } from './components/series/series-read/series-read.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { SeriesDeleteComponent } from './components/series/series-delete/series-delete.component';
+import { SeriesUpdateComponent } from './components/series/series-update/series-update.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +41,9 @@ import { MatInputModule } from "@angular/material/input";
     HomeComponent,
     SeriesComponent,
     SeriesCreateComponent,
+    SeriesReadComponent,
+    SeriesDeleteComponent,
+    SeriesUpdateComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,6 +59,9 @@ import { MatInputModule } from "@angular/material/input";
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
