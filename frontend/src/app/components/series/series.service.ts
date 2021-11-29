@@ -23,4 +23,23 @@ export class SeriesService {
   create(series: Series): Observable<Series> {
     return this.http.post<Series>(this.baseUrl, series);
   }
+
+  read(): Observable<Series[]> {
+    return this.http.get<Series[]>(this.baseUrl);
+  }
+
+  readById(id: number): Observable<Series> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.get<Series>(url);
+  }
+
+  update(series: Series): Observable<Series> {
+    const url = `${this.baseUrl}/${series.id}`;
+    return this.http.put<Series>(url, series);
+  }
+
+  delete(id: number): Observable<Series> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.delete<Series>(url);
+  }
 }
